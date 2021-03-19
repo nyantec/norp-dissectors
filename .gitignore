@@ -1,0 +1,19 @@
+# Build files
+*-*-*-*/
+*~
+autom4te.cache/
+Makefile
+Makefile.in
+aclocal.m4
+compile
+config.guess
+config.h.in
+config.log
+config.status
+config.sub
+configure
+depcomp
+install-sh
+ltmain.sh
+missing
+test-driver
