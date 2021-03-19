@@ -6,5 +6,7 @@ LDADD = $(wireshark_LIBS)
 epan_LTLIBRARIES = norp.la
 norp_la_SOURCES = \
 	plugin.c \
+	packet-nyantec-oui.h \
+	packet-nyantec-oui.c \
 	packet-norp.h \
 	packet-norp.c
