@@ -1,0 +1,23 @@
+# MAC destination
+0000 14 5b e1 00 00 00
+
+# MAC source
+0006 14 5b e1 00 00 01
+
+# EtherType
+000c 88 b7
+
+# OUI
+000e 14 5b e1
+
+# PID
+0011 05 f8
+
+# Version and flags
+0013 20
+
+# Group Key Selector
+0014 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+# Authenticator
+0023 00 00 00 00 00 00 00 00
