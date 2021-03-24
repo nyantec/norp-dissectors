@@ -2,7 +2,8 @@
 
 #include <epan/proto.h>
 
-extern void proto_register_nyantec_oui();
+extern void proto_register_ieee802a_nyantec();
+extern void proto_register_llc_nyantec();
 extern void proto_register_norp();
 
 extern void proto_reg_handoff_norp();
@@ -14,7 +15,10 @@ int const plugin_want_minor = WIRESHARK_VERSION_MINOR;
 
 static proto_plugin plugin[] = {
 	{
-		.register_protoinfo = proto_register_nyantec_oui
+		.register_protoinfo = proto_register_ieee802a_nyantec
+	},
+	{
+		.register_protoinfo = proto_register_llc_nyantec
 	},
 	{
 		.register_protoinfo = proto_register_norp,

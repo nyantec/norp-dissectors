@@ -1,0 +1,38 @@
+# Frame control
+0000 88 00
+
+# Duration
+0002 00 00
+
+# Receiver address
+0004 14 5b e1 00 00 01
+
+# Transmitter address
+000a 14 5b e1 00 00 00
+
+# BSSID
+0010 ff ff ff ff ff ff
+
+# Sequence control
+0016 00 00
+
+# QoS control
+0018 20 00
+
+# LLC
+001a aa aa 03
+
+# OUI
+001d 14 5b e1
+
+# PID
+0020 05 f8
+
+# Version and flags
+0022 20
+
+# Group Key Selector
+0023 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+# Authenticator
+0032 00 00 00 00 00 00 00 00

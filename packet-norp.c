@@ -136,6 +136,7 @@ void proto_reg_handoff_norp() {
 	dissector_handle_t norp_handle = create_dissector_handle(dissect_norp, proto_norp);
 
 	dissector_add_uint("ieee802a.nyantec_pid", NORP_PORT, norp_handle);
+	dissector_add_uint("llc.nyantec_pid", NORP_PORT, norp_handle);
 	dissector_add_uint("ip.proto", NORP_PROTO, norp_handle);
 	dissector_add_uint("udp.port", NORP_PORT, norp_handle);
 	dissector_add_uint("sctp.port", NORP_PORT, norp_handle);
