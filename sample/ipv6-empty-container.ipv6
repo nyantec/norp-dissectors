@@ -1,0 +1,26 @@
+# Version, traffic class & flow label
+0000 60 20 00 00
+
+# Payload length
+0004 00 18
+
+# Next header
+0006 fe
+
+# Hop limit
+0007 10
+
+# Source address
+0008 2a 0f be 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+# Destination address
+0018 2a 0f be 00 00 00 00 00 00 00 00 00 00 00 00 01
+
+# Version and flags
+0028 20
+
+# Group Key Selector
+0029 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+# Authenticator
+0038 00 00 00 00 00 00 00 00

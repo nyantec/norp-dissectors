@@ -1,0 +1,38 @@
+# Version & IHL
+0000 45
+
+# Traffic class
+0001 02
+
+# Total length
+0002 00 2c
+
+# Identification
+0004 00 00
+
+# Flags & fragment offset
+0006 40 00
+
+# TTL
+0008 10
+
+# Protocol
+0009 fe
+
+# Header checksum
+000a 1e a5
+
+# Source address
+000c 2d 96 78 00
+
+# Destination address
+0010 2d 96 78 01
+
+# Version and flags
+0014 20
+
+# Group Key Selector
+0015 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+# Authenticator
+0024 00 00 00 00 00 00 00 00
